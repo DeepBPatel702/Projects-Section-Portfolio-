@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root{
+	--clr-dark:  #000000;
+	--clr-white: #ffffff;
+	--clr-blue:  #3DCFD3;
+}
+
+html{
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+body{
+	/* border: 2px solid white; */
+	font-family: 'Oxygen', sans-serif;
+	background-color: var(--clr-white);
+}
+
+h1{
+	justify-content: center;
+	text-align: center;
+	/* margin-left: 33%; */
+	margin-top: 0.2rem;
+	/* border: 2px solid red; */
+}
+
+.heading1{
+	color: var(--clr-white);
+	font-weight: 500;
+	margin-bottom: 1rem;
+}
+
+.container{
+	/* border: 2px solid black; */
+	margin-top: 2rem;
+	height: 10rem;
+	text-align: center;
+}
+
+.section, .section1{
+	margin-top: 2rem;
+	height: 20rem;
+	padding: 7rem;
+	margin-bottom: 2.5rem;
+}
+
+.section{
+	background-color: var(--clr-dark);
+	clip-path: polygon(0 10%, 100% 0%, 100% 100%, 80%  85%, 0 100%)
+
+}
+
+.btn{
+	margin: 0.5rem;
+	padding: 0.5rem;
+	width:  10rem;
+	border-radius: 10px;
+	text-transform: uppercase;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all .3s ease;
+	background-color: var(--clr-blue);
+	color: var(--clr-dark);
+}
+
+/* .btn.btn-primary{
+}
+
+.btn.btn-secondary{
+ */
+.btn.btn-primary:hover, .btn.btn-secondary:hover{
+	color: var(--clr-dark);
+	background-color: #679BAA;
+	font-weight: 500;
+	box-shadow: 0.3rem 0.5rem 0.3rem black;
+	#679BAA
+}
+
+
+
+/* .btn.btn-secondary:hover{
+	color: var(--clr-blue);
+	background-color: var(--clr-dark);
+	border: 2px solid var(--clr-white);
+	font-weight: 500;
+	box-shadow: 0.3rem 0.5rem 0.3rem black;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
