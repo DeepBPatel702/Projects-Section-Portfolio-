@@ -37,6 +37,10 @@ h1{
 	margin-bottom: 1rem;
 }
 
+.heading{
+
+}
+
 .container{
 	/* border: 2px solid black; */
 	margin-top: 2rem;
@@ -44,16 +48,23 @@ h1{
 	text-align: center;
 }
 
-.section, .section1{
+.section{
 	margin-top: 2rem;
 	height: 20rem;
 	padding: 7rem;
 	margin-bottom: 2.5rem;
 }
 
+.section1{
+	margin-top: 2rem;
+	margin-bottom: 2.5rem;
+	padding: 7rem;
+	height: 5rem;
+}
+
 .section{
-	background-color: var(--clr-dark);
-	clip-path: polygon(0 10%, 100% 0%, 100% 100%, 80%  85%, 0 100%)
+	background-color: #4C4848;
+	clip-path: polygon(0 0, 100% 0%, 100% 100%, 80%  85%, 0 100%)
 
 }
 
